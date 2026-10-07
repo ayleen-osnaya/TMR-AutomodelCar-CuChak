@@ -454,7 +454,7 @@ cd ~
 rm -rf ros2_ws
 ```
 
-#### **14.2 crear un workspaces** {#14.2-crear-un-workspaces}
+#### **14.2 crear un workspaces** 
 
 ##### **1\. Ve a tu carpeta Home**
 
