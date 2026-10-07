@@ -20,7 +20,6 @@ entrar a silicon labs:
 
 ![image18](images/image18.png)
 
-
 Entrar a Downloads 
 
 ![image15](images/image15.png)
