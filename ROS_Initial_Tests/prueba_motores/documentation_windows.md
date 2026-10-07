@@ -2,10 +2,11 @@
 
 **Entorno:** Windows con WSL2 (Ubuntu 24.04), ROS 2 Jazzy, ESP32 con chip CP210x, workspace en **\~/ros2\_ws**.
 
-el workspace se llama: **ros2\_ws** le pueden poner el que gusten sino tienen un workspaces en **anexos** en [14.2 crear un workspace](#142-crear-un-workspace) de este documento se encuentra como hacerlo
+el workspace se llama: **ros2\_ws** le pueden poner el que gusten sino tienen un workspaces en **anexos en [14.2 crear un workspace](#14.2-crear-un-workspaces)** de este documento se encuentra como hacerlo
 
 si ya lo tienes todo y lo quieres volver a correr ve a [13 Ejecución final](#13-Ejecución-final-cuando-ya-tienes-todo-y-lo-quieres-volver-a-correr)
 
+**13-Ejecución final cuando ya tienes todo y lo quieres volver a correr**
 
 ### **1\. Flashear MicroPython** 
 
@@ -169,7 +170,7 @@ cd ~/ros2_ws/src
 ros2 pkg create --build-type ament_python motor_bridge --dependencies rclpy std_msgs
 ```
 
-si tu workspace no se llama **ros2\_ws** cambialo por el nombre correcto si no tienes un workspaces en **anexos** en [14.2 crear un workspace](#142-crear-un-workspaces) de este documento se encuentra como hacerlo
+si tu workspace no se llama **ros2\_ws** cambialo por el nombre correcto si no tienes un workspaces en **anexos en [14.2 crear un workspace](#14.2-crear-un-workspaces)** de este documento se encuentra como hacerlo
 
 ### **6\. crear el archivo del nodo en Visual Studio**
 
@@ -454,7 +455,7 @@ cd ~
 rm -rf ros2_ws
 ```
 
-#### **14.2 crear un workspaces** 
+#### **14.2 crear un workspaces** {#14.2-crear-un-workspaces}
 
 ##### **1\. Ve a tu carpeta Home**
 
