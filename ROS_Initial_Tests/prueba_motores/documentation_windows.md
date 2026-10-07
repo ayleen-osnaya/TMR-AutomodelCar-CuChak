@@ -2,7 +2,7 @@
 
 **Entorno:** Windows con WSL2 (Ubuntu 24.04), ROS 2 Jazzy, ESP32 con chip CP210x, workspace en **\~/ros2\_ws**.
 
-el workspace se llama: **ros2\_ws** le pueden poner el que gusten sino tienen un workspaces en **anexos** en [142 crear un workspace](#142-crear-un-workspace) de este documento se encuentra como hacerlo
+el workspace se llama: **ros2\_ws** le pueden poner el que gusten sino tienen un workspaces en **anexos** en [14.2 crear un workspace](#142-crear-un-workspace) de este documento se encuentra como hacerlo
 
 si ya lo tienes todo y lo quieres volver a correr ve a [13 Ejecución final](#13-Ejecución-final-cuando-ya-tienes-todo-y-lo-quieres-volver-a-correr)
 
