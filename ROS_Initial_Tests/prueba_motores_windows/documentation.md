@@ -37,27 +37,27 @@ ejecutar como administrador el .exe correspondiente según los bits de tu comput
 
 Entramos a Thonny (si no lo tienes ve a la carpeta de instalaciones de este repositorio)
 
-![][image5]
+![image19](images/image19.png)
 
 Entramos a Herramientas
 
-![][image6]
+![image8](images/image8.png)
 
 y dentro de herramientas entrar a opciones
 
-![][image7]
+![image3](images/image3.png)
 
 dentro de Opciones elegir Interprete
 
-![][image8]
+![image7](images/image7.png)
 
 elegir micro python en el menu desplegable 1 y poner el puerto de tu Esp32 en el segundo
 
-![][image9]
+![image4](images/image4.png)
 
 presionar instalar Micro python 
 
-![][image10]
+![image20](images/image20.png)
 
 pones tu puerto en target port y pones la misma información mostrada en el resto
 
@@ -72,9 +72,9 @@ pones tu puerto en target port y pones la misma información mostrada en el rest
 
 El motor usa **fuente externa**, y los GND de la fuente, el driver y el ESP32 deben ir **unidos**.
 
-![][image11]
+![image22](images/image22.png)
 
-![][image12]
+![image21](images/image21.png)
 
 ### **3\. Probar las conexiones el motor solo con MicroPython \- THONNY**
 
@@ -146,15 +146,15 @@ while True:
 
 Una vez que tengas el código en thonny le das a guardar
 
-![][image13]
+![image16](images/image16.png)
 
 te preguntará si quieres guardarlo en tu pc o lap o en la Esp32, pon que en la ESP32 (Dispositivo MicroPython)
 
-![][image14]
+![image12](images/image12.png)
 
 guardas el archivo como `main.py y listo.`
 
-`![][image15]`
+![image5](images/image5.png)
 
 Haz click en Ok.
 
@@ -180,11 +180,11 @@ Terminal Ubuntu
 code .
 ```
 
-![][image16]
+![image17](images/image17.png)
 
 dentro de **motor\_bridge**
 
-![][image17]
+![image1](images/image1.png)
 
 creas un nuevo file llamado **bridge.py**
 
@@ -221,9 +221,9 @@ def main():
 
 En `setup.py`, dentro de `entry_points`: 
 
-![][image18]
+![image11](images/image11.png)
 
-![][image19]
+![image13](images/image13.png)
 
 ```py
 'console_scripts': ['bridge = motor_bridge.bridge:main'],
@@ -245,7 +245,7 @@ winget install usbipd
 usbipd list
 ```
 
-![][image20]
+![image10](images/image10.png)
 
 En mi ESP32 apareció como `3-2 10c4:ea60 Silicon Labs CP210x USB to UART Bridge (COM3)`. Entonces:
 
@@ -273,7 +273,7 @@ ls /dev/ttyUSB0
 
 Apareció `/dev/ttyUSB0`.
 
-![][image21]
+![image6](images/image6.png)
 
 Recuerda:
 
@@ -308,7 +308,7 @@ Abre ubuntu Comprueba con `groups` que aparezca `dialout`.
 groups
 ```
 
-![][image22]
+![image9](images/image9.png)
 
 ### **10\. Instalar herramientas del ESP32** 
 
