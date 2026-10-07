@@ -4,7 +4,8 @@
 
 el workspace se llama: **ros2\_ws** le pueden poner el que gusten sino tienen un workspaces en **anexos en [14.2 crear un workspace](#14.2-crear-un-workspaces)** de este documento se encuentra como hacerlo
 
-si ya lo tienes todo y lo quieres volver a correr ve a [13 Ejecución final](https://docs.google.com/document/d/1aqvejTS182GhyjVYmZNeADkmZFBg9LTsOpRoGApCXdE/edit?tab=t.0#heading=h.aeeq5zap6muv)
+si ya lo tienes todo y lo quieres volver a correr ve a [13 Ejecución final](#13-Ejecución-final-cuando-ya-tienes-todo-y-lo-quieres-volver-a-correr)
+
 
 ### **1\. Flashear MicroPython** 
 
