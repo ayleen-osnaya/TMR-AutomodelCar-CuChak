@@ -2,9 +2,9 @@
 
 **Entorno:** workspace en **\~/ros2\_ws**.
 
-el workspace se llama: **ros2\_ws** le pueden poner el que gusten sino tienen un workspaces en **anexos en [14.2 crear un workspace](#13.2-crear-un-workspaces)** de este documento se encuentra como hacerlo
+el workspace se llama: **ros2\_ws** le pueden poner el que gusten sino tienen un workspaces en **anexos en [13.2 crear un workspace](#anexo-crear-workspace)** de este documento se encuentra como hacerlo
 
-si ya lo tienes todo y lo quieres volver a correr ve a [13 Ejecución final](#12.-ejecución-final-cuando-ya-tienes-todo-y-lo-quieres-volver-a-correr)
+si ya lo tienes todo y lo quieres volver a correr ve a [12 Ejecución final](#12.-ejecución-final-cuando-ya-tienes-todo-y-lo-quieres-volver-a-correr)
 
 ### **1\. Flashear MicroPython (no en la jetson)** 
 
@@ -383,7 +383,8 @@ rm -rf ros2_ws
 
 **hay que recordar que \~ es igual a la carpeta de home** 
 
-#### **13.2 crear un workspaces** {#13.2-crear-un-workspaces}
+<a id="anexo-crear-workspace"></a>
+#### **13.2 crear un workspaces** 
 
 ##### **1\. Ve a tu carpeta Home**
 
