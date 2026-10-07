@@ -25,11 +25,11 @@ Entrar a Downloads
 
 Descargar el driver para windows
 
-![][image3]
+![image2](images/image2.png)
 
 Extraer el zip
 
-![][image4]
+![image14](images/image14.png)
 
 ejecutar como administrador el .exe correspondiente según los bits de tu computadora
 
