@@ -16,12 +16,12 @@ entrar a silicon labs:
 
 [https\://www\.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=overview](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=overview) 
 
-![image15](images/image15.png)
+![image18](images/image18.png)
 
 
 Entrar a Downloads 
 
-![][image2]
+![image15](images/image15.png)
 
 Descargar el driver para windows
 
