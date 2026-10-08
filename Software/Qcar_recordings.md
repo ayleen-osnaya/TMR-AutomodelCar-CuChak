@@ -190,7 +190,7 @@ ros2 launch vision_helpers_pkg qcar_image_decompressor.launch.py
 
 ---
 
-## Step 3 — Verify That Images Are Arriving
+## Step 3 — Verify That Images Are Arriving OPTIONAL
 
 Open a **new terminal** (set your `ROS_DOMAIN_ID` again). Before recording, check that the decompressed topics exist:
 
@@ -226,7 +226,7 @@ ros2 topic hz /qcar/decompressed/rgbd_color
 
 ---
 
-## Step 4 — Record
+## Step 4 — Record 
 
 Once you have confirmed that the topics are publishing, set your **name** and **QCar color** below. The bag name is built automatically with the **current date and time**.
 
@@ -260,7 +260,7 @@ Ctrl+C
 
 ---
 
-## Step 5 — Verify the Recording Is NOT Empty
+## Step 5 — Verify the Recording Is NOT Empty OPTIONAL
 
 Use the same terminal (so `BAG_NAME` is still set):
 
@@ -343,12 +343,21 @@ Next, add the camera view:
 
 1. Click **Add → By topic**.
 
-   ![Add display in RViz2](images/image1.jpeg)
-   ![Add display in RViz2](images/image2.jpeg)
+<p align="center">
+  <img src="imagenes/image1.jpeg" width="400">
+</p>
+
+<p align="center">
+  <img src="imagenes/image2.jpeg" width="400">
+</p>
+
 
 2. Select the topic `/qcar/decompressed/csi_front` and choose **Image**.
 
-   ![Select Image display](images/image3.jpeg)
+<p align="center">
+  <img src="imagenes/image3.jpeg" width="400">
+</p>
+
 
 3. Repeat the process to add more **Image** displays for:
 
@@ -361,7 +370,11 @@ rgbd_color
 
 4. In each Image display, expand **Reliability Policy** and select **Best Effort**.
 
-   ![Set reliability to Best Effort](images/image4.jpeg)
+
+<p align="center">
+  <img src="imagenes/image4.jpeg" width="400">
+</p>
+
 
 ---
 
