@@ -343,11 +343,12 @@ Next, add the camera view:
 
 1. Click **Add → By topic**.
 
-   ![Add display in RViz2](images/image17.png)
+   ![Add display in RViz2](images/image1.jpeg)
+   ![Add display in RViz2](images/image2.jpeg)
 
 2. Select the topic `/qcar/decompressed/csi_front` and choose **Image**.
 
-   ![Select Image display](images/image17.png)
+   ![Select Image display](images/image3.jpeg)
 
 3. Repeat the process to add more **Image** displays for:
 
@@ -360,7 +361,7 @@ rgbd_color
 
 4. In each Image display, expand **Reliability Policy** and select **Best Effort**.
 
-   ![Set reliability to Best Effort](images/image17.png)
+   ![Set reliability to Best Effort](images/image4.jpeg)
 
 ---
 
