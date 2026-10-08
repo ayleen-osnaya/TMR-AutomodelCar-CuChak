@@ -15,8 +15,8 @@ You will use **several terminals**. Keep each one open unless told otherwise.
 | Terminal 1 | SSH into the QCar and run the QCar launch file |
 | Terminal 2 | Image decompressor |
 | Terminal 3 | Topic checks and recording |
-| Terminal 4 | Playback |
-| Terminal 5 | RViz2 |
+| Terminal 3 | Playback |
+| Terminal 4 | RViz2 |
 
 ---
 
@@ -216,13 +216,9 @@ ros2 topic hz /qcar/decompressed/csi_right
 ros2 topic hz /qcar/decompressed/csi_back
 ```
 
-If your QCar has a left camera:
-
 ```sh
 ros2 topic hz /qcar/decompressed/csi_left
 ```
-
-For the RGB-D camera:
 
 ```sh
 ros2 topic hz /qcar/decompressed/rgbd_color
