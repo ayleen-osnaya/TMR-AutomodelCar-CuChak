@@ -343,19 +343,18 @@ Next, add the camera view:
 
 1. Click **Add → By topic**.
 
-<p align="center">
-  <img src="imagenes/image1.jpeg" width="400">
+ <p align="center">
+  <img src="images/image1.jpeg" width="400">
 </p>
 
 <p align="center">
-  <img src="imagenes/image2.jpeg" width="400">
+  <img src="images/image2.jpeg" width="400">
 </p>
-
 
 2. Select the topic `/qcar/decompressed/csi_front` and choose **Image**.
 
 <p align="center">
-  <img src="imagenes/image3.jpeg" width="400">
+  <img src="images/image3.jpeg" width="400">
 </p>
 
 
@@ -372,7 +371,7 @@ rgbd_color
 
 
 <p align="center">
-  <img src="imagenes/image4.jpeg" width="400">
+  <img src="images/image4.jpeg" width="400">
 </p>
 
 
