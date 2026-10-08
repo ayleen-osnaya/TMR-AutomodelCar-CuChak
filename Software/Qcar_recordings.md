@@ -35,7 +35,7 @@ You will use **several terminals**. Keep each one open unless told otherwise.
 <summary>🔴 Red</summary>
 
 ```sh
-ssh -X nvidia@<RED_QCAR_IP>
+ssh -X nvidia@192.168.1.6
 ```
 
 </details>
@@ -44,7 +44,7 @@ ssh -X nvidia@<RED_QCAR_IP>
 <summary>🟢 Green</summary>
 
 ```sh
-ssh -X nvidia@<GREEN_QCAR_IP>
+ssh -X nvidia@192.168.1.2
 ```
 
 </details>
@@ -53,7 +53,7 @@ ssh -X nvidia@<GREEN_QCAR_IP>
 <summary>🔵 Blue</summary>
 
 ```sh
-ssh -X nvidia@<BLUE_QCAR_IP>
+ssh -X nvidia@192.168.1.4
 ```
 
 </details>
