@@ -134,6 +134,8 @@ ros2 launch qcar qcar_blue.launch.py
 
 ## Step 1 — Set the ROS Domain ID (Multi-Robot Coordination)
 
+terminal 2:
+
 To prevent network interference when several QCars operate at the same time, each platform has a unique `ROS_DOMAIN_ID`:
 
 | QCar Platform | `ROS_DOMAIN_ID` |
@@ -179,8 +181,8 @@ export ROS_DOMAIN_ID=114
 ---
 
 ## Step 2 — Start the Image Decompressor
-
-In a **new terminal** (with your `ROS_DOMAIN_ID` set):
+terminal 2: 
+In the same  **terminal** (with your `ROS_DOMAIN_ID` set):
 
 ```sh
 ros2 launch vision_helpers_pkg qcar_image_decompressor.launch.py
@@ -191,6 +193,8 @@ ros2 launch vision_helpers_pkg qcar_image_decompressor.launch.py
 ---
 
 ## Step 3 — Verify That Images Are Arriving OPTIONAL
+
+terminal 3:
 
 Open a **new terminal** (set your `ROS_DOMAIN_ID` again). Before recording, check that the decompressed topics exist:
 
@@ -228,6 +232,8 @@ ros2 topic hz /qcar/decompressed/rgbd_color
 
 ## Step 4 — Record 
 
+terminal 3:
+
 Once you have confirmed that the topics are publishing, set your **name** and **QCar color** below. The bag name is built automatically with the **current date and time**.
 
 Edit only the first two lines (`STUDENT_NAME` and `QCAR_COLOR`), then paste the whole block:
@@ -262,6 +268,8 @@ Ctrl+C
 
 ## Step 5 — Verify the Recording Is NOT Empty OPTIONAL
 
+terminal 3:
+
 Use the same terminal (so `BAG_NAME` is still set):
 
 ```sh
@@ -282,6 +290,8 @@ and that **every topic has a `Count` greater than zero**.
 
 ## Step 6 — Replay
 
+terminal 3:
+
 1. Press `Ctrl+C` in **Terminal 1** (the one running `ros2 launch qcar qcar_{platform_color}.launch.py`).
 2. In a terminal with your `ROS_DOMAIN_ID` set, play the bag:
 
@@ -294,7 +304,7 @@ Or with the name typed out, for example:
 ```sh
 ros2 bag play tmr_recordings/Ayleen_greenQCar_2026_10_08_13_19 --loop
 ```
-
+if you use the same terminal (terminal 3) opcion 2 is not necesary
 ---
 
 ## Step 7 — Open RViz2
