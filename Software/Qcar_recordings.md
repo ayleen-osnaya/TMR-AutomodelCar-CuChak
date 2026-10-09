@@ -308,6 +308,7 @@ if you use the same terminal (terminal 3) opcion 2 is not necesary
 ---
 
 ## Step 7 — Open RViz2
+terminal 4:
 
 In another new terminal, set your `ROS_DOMAIN_ID` again:
 
