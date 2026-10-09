@@ -378,7 +378,7 @@ csi_left
 rgbd_color
 ```
 
-4. In each Image display, expand **Reliability Policy** and select **Best Effort**.
+4. In each Image display, expand **Topic**, then **Reliability Policy** and select **Best Effort**.
 
 
 <p align="center">
