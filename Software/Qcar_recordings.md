@@ -137,7 +137,7 @@ ros2 launch qcar qcar_blue.launch.py
 
 ## Step 1 — Set the ROS Domain ID (Multi-Robot Coordination)
 
-terminal 2:
+**Terminal 2:**
 
 To prevent network interference when several QCars operate at the same time, each platform has a unique `ROS_DOMAIN_ID`:
 
@@ -184,7 +184,7 @@ export ROS_DOMAIN_ID=114
 ---
 
 ## Step 2 — Start the Image Decompressor
-terminal 2: 
+**Terminal 2:** 
 In the same  **terminal** (with your `ROS_DOMAIN_ID` set):
 
 ```sh
@@ -197,7 +197,7 @@ ros2 launch vision_helpers_pkg qcar_image_decompressor.launch.py
 
 ## Step 3 — Verify That Images Are Arriving OPTIONAL
 
-terminal 3:
+**Terminal 3:**
 
 Open a **new terminal** (set your `ROS_DOMAIN_ID` again). Before recording, check that the decompressed topics exist:
 
@@ -235,7 +235,7 @@ ros2 topic hz /qcar/decompressed/rgbd_color
 
 ## Step 4 — Record 
 
-terminal 3:
+**Terminal 3:**
 
 Once you have confirmed that the topics are publishing, set your **name** and **QCar color** below. The bag name is built automatically with the **current date and time**.
 
@@ -271,7 +271,7 @@ Ctrl+C
 
 ## Step 5 — Verify the Recording Is NOT Empty OPTIONAL
 
-terminal 3:
+**Terminal 3:**
 
 Use the same terminal (so `BAG_NAME` is still set):
 
@@ -293,7 +293,7 @@ and that **every topic has a `Count` greater than zero**.
 
 ## Step 6 — Replay
 
-terminal 3:
+**Terminal 3:**
 
 1. Press `Ctrl+C` in **Terminal 1** (the one running `ros2 launch qcar qcar_{platform_color}.launch.py`).
 2. In a terminal with your `ROS_DOMAIN_ID` set, play the bag:
@@ -315,7 +315,7 @@ if you use the same terminal (terminal 3) opcion 2 is not necesary
 > ⚠️ **Leave this terminal running.** Open a **new terminal** for the next steps.
 
 ## Step 7 — Open RViz2
-terminal 4:
+**Terminal 4:**
 
 In another new terminal, set your `ROS_DOMAIN_ID` again:
 
@@ -413,4 +413,4 @@ ros2 bag play --loop
 RViz2
 ```
 
-> **⚠️ Do not start recording until** `ros2 topic hz /qcar/decompressed/csi_front` **shows a non-zero frequency.**
+> **⚠️ Do not start recording until** `ros2 topic hz /qcar/decompressed/csi_front` **in terminal 3 shows a non-zero frequency.**
