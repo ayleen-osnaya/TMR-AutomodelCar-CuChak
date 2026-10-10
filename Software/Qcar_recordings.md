@@ -309,7 +309,7 @@ ros2 bag play tmr_recordings/Ayleen_greenQCar_2026_10_08_13_19 --loop
 if you use the same terminal (terminal 3) opcion 2 is not necesary
 ---
 
-> ⚠️ Please make shure that this terminal keeps running. If not, run the command again.  
+> ⚠️ Please make shure that this terminal keeps running. If not, run the command again.    
 > ⚠️ **Leave this terminal running.** Open a **new terminal** for the next steps.
 
 ## Step 7 — Open RViz2
