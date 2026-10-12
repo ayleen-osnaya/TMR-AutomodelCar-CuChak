@@ -128,7 +128,7 @@ ros2 launch qcar qcar_blue.launch.py
 
 </details>
 
-> ⚠️ Please make shure that this terminal keeps running. If not, run the launch command again.  
+> ⚠️ Please make shure that this terminal keeps running. If not, run the launch command again. For physical reference, check that the qcar is on (Front LEDs and LiDAR sensor should be on). 
 
 > ⚠️ **Leave this terminal running.** Open a **new terminal** for the next steps.
 
