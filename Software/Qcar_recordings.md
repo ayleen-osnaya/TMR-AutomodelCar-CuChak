@@ -133,6 +133,7 @@ ros2 launch qcar qcar_blue.launch.py
 > ⚠️ **Leave this terminal running.** Open a **new terminal** for the next steps.
 
 
+
 ---
 
 ## Step 1 — Set the ROS Domain ID (Multi-Robot Coordination)
