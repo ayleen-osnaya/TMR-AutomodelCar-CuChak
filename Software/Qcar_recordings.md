@@ -16,7 +16,7 @@ You will use **several terminals**. Keep each one open unless told otherwise.
 | Terminal 2 | Image decompressor |
 | Terminal 3 | Topic checks and recording |
 | Terminal 3 | Playback |
-| Terminal 4 | RViz2 |
+| Terminal 4 | joystick and RViz2 |
 
 ---
 
@@ -262,7 +262,7 @@ Example of the generated name: `Ayleen_greenQCar_2026_10_08_13_19`
 
 > **Write down the name that `echo` prints.** You will need it in Steps 5 and 6.
 fgfgh
-Leave it recording. To stop:
+Leave it recording. To stop in both terminals:
 
 ```
 Ctrl+C
