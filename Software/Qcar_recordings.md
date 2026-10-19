@@ -261,7 +261,7 @@ ros2 bag record --topics \
 Example of the generated name: `Ayleen_greenQCar_2026_10_08_13_19`
 
 > **Write down the name that `echo` prints.** You will need it in Steps 5 and 6.
-
+fgfgh
 Leave it recording. To stop:
 
 ```
