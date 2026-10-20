@@ -262,9 +262,22 @@ Example of the generated name: `Ayleen_greenQCar_2026_10_08_13_19`
 
 > **Write down the name that `echo` prints.** You will need it in Steps 5 and 6.
 
+Leave it recording. 
+
+### Step 4.1 — Drive while recording
+
+By this stage your Qcar is already recording, and you can start controlling it in order to drive.
+To do so, you must connect the Xbox Series X controller to the PC using a USB-C cable and turn it on.
+> **⚠️ Make sure that the Xbox button (center button) is turned on and not blinking. A blinking light on the Xbox button means it is in pairing mode. To solve this, just disconnect the cable, reconnect it to the PC and the Xbox controller, and turn the controller on again. If the button isn't showing any light check that the cable and the controller are both working correctly.**
+
 **Terminal 4:**
 
-By this part your qcar is already recording, you can now start controlling the qcar in order to drive it.
+Once the Xbox controller is already connected and working, type in terminal the following commands:
+```sh
+---
+
+```
+And start using the controller to drive the Qcar.
 
 Leave it recording. To stop in both terminals:
 
