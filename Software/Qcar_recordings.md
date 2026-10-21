@@ -280,7 +280,7 @@ ros2 launch qcar_gazebo joystick.launch.py
 And start using the controller to drive the Qcar.
 
 <p align="center">
-  <img src="images/image5.jpeg" width="400">
+  <img src="images/image5.png" width="400">
 </p>
 
 Leave it recording. To stop the video recording type in terminals 2, 3 and 4:
