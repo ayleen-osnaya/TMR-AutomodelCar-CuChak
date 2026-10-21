@@ -272,7 +272,7 @@ To do so, you must connect the Xbox Series X controller to the PC using a USB-C 
 
 **Terminal 4:**
 
-Once the Xbox controller is already connected and working, type in terminal the following commands:
+Once the Xbox controller is already connected and working, type in terminal the following command:
 ```sh
 ros2 launch qcar_gazebo joystick.launch.py
 
