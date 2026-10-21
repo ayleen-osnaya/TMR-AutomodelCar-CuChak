@@ -412,7 +412,7 @@ rgbd_color
 
 
 <p align="center">
-  <img src="images/image4.png" width="400">
+  <img src="images/image5.png" width="400">
 </p>
 
 
