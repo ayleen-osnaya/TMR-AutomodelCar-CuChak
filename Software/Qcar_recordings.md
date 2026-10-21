@@ -268,20 +268,29 @@ Leave it recording.
 
 By this stage your Qcar is already recording, and you can start controlling it in order to drive.
 To do so, you must connect the Xbox Series X controller to the PC using a USB-C cable and turn it on.
-> **⚠️ Make sure that the Xbox button (center button) is turned on and not blinking. A blinking light on the Xbox button means it is in pairing mode. To solve this, just disconnect the cable, reconnect it to the PC and the Xbox controller, and turn the controller on again. If the button isn't showing any light check that the cable and the controller are both working correctly.**
+> ⚠️ Make sure that the **Xbox button** (center button) is **turned on** and **not blinking**. A blinking light on the Xbox button means it is in `pairing mode`. To solve this, just disconnect the cable, reconnect it to the PC and the Xbox controller, and turn the controller on again. If the button isn't showing any light, check that the **cable** and the **controller** are **both working correctly**.
 
 **Terminal 4:**
 
 Once the Xbox controller is already connected and working, type in terminal the following command:
 ```sh
 ros2 launch qcar_gazebo joystick.launch.py
-
 ```
 And start using the controller to drive the Qcar.
+Follow this diagram as a guide; you must press and hold the buttons to execute their respective functions.
 
 <p align="center">
-  <img src="images/image5.png" width="400">
+  <img src="images/image7.png" width="400">
 </p>
+
+
+<details>
+<summary><b>Check the full button diagram</b></summary>
+<p align="center">
+  <img src="images/image6.png" width="400">
+</p>
+
+</details>
 
 Leave it recording. To stop the video recording, type in terminals 2, 3 and 4:
 <!-- Leave it recording. To stop in both terminals:-->
