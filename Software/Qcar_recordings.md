@@ -321,7 +321,7 @@ Follow this diagram as a guide; you must press and hold the buttons to execute t
 <details>
 <summary><b>Check the full button diagram</b></summary>
 <p align="center">
-  <img src="images/image6.png" width="400">
+  <img src="images/image6.png" width="600">
 </p>
 
 </details>
