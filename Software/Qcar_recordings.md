@@ -283,7 +283,7 @@ And start using the controller to drive the Qcar.
   <img src="images/image5.png" width="400">
 </p>
 
-Leave it recording. To stop the video recording type in terminals 2, 3 and 4:
+Leave it recording. To stop the video recording, type in terminals 2, 3 and 4:
 <!-- Leave it recording. To stop in both terminals:-->
 
 ```
