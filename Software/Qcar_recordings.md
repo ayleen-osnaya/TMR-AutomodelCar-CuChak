@@ -128,7 +128,7 @@ ros2 launch qcar qcar_blue.launch.py
 
 </details>
 
-> ⚠️ Please make shure that this terminal keeps running. If not, run the launch command again. For physical reference, check that the qcar is on (Front LEDs and LiDAR sensor should be on). 
+> ⚠️ Please make shure that this terminal keeps running. If not, run the launch command again. For physical reference, check that the Qcar is on (**Front LEDs** and **LiDAR sensor** should be **turned on**). 
 
 > ⚠️ **Leave this terminal running.** Open a **new terminal** for the next steps.
 
@@ -271,6 +271,40 @@ To do so, you must connect the Xbox Series X controller to the PC using a USB-C 
 > ⚠️ Make sure that the **Xbox button** (center button) is **turned on** and **not blinking**. A blinking light on the Xbox button means it is in `pairing mode`. To solve this, just disconnect the cable, reconnect it to the PC and the Xbox controller, and turn the controller on again. If the button isn't showing any light, check that the **cable** and the **controller** are **both working correctly**.
 
 **Terminal 4:**
+
+In another new terminal, set your `ROS_DOMAIN_ID` again:
+
+<details>
+<summary><b>Select your QCar color</b></summary>
+
+<details>
+<summary>🔴 Red</summary>
+
+```sh
+export ROS_DOMAIN_ID=116
+```
+
+</details>
+
+<details>
+<summary>🟢 Green</summary>
+
+```sh
+export ROS_DOMAIN_ID=115
+```
+
+</details>
+
+<details>
+<summary>🔵 Blue</summary>
+
+```sh
+export ROS_DOMAIN_ID=114
+```
+
+</details>
+
+</details>
 
 Once the Xbox controller is already connected and working, type in terminal the following command:
 ```sh
