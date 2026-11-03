@@ -13,6 +13,7 @@ nosotros lo realizamos en thonny pero la puede flashear como más gusten, los pa
 #### **1 Instalar el driver de la Esp32 si es necesario**
 
 entrar a silicon labs:
+![image18](images/image18.png)
 
 [https\://www\.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=overview](https://www.silabs.com/software-and-tools/usb-to-uart-bridge-vcp-drivers?tab=overview) 
 
