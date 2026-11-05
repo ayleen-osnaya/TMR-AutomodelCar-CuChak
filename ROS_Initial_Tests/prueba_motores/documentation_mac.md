@@ -33,15 +33,15 @@ Seguir los pasos que te pide la ventana emergente
 
 Entramos a Thonny (si no lo tienes ve a la carpeta de instalaciones de este repositorio)
 
-![][image4]
+![image19](images/image19.png)
 
 Entramos a Herramientas
 
-![][image5]
+![image8](images/image8.png)
 
 y dentro de herramientas entrar a opciones
 
-![][image6]
+![image3](images/image3.png)
 
 dentro de Opciones elegir Interprete
 
