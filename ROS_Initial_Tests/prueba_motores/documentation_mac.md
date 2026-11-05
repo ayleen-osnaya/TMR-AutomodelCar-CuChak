@@ -21,7 +21,7 @@ entrar a silicon labs:
 
 Entrar a Downloads 
 
-![][image2]
+![image20_mac](images/image20_mac.png)
 
 Descargar el driver para mac
 
