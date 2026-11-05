@@ -25,7 +25,7 @@ Entrar a Downloads
 
 Descargar el driver para mac
 
-![][image3]
+![image25_mac](images/image25_mac.png)
 
 Seguir los pasos que te pide la ventana emergente 
 
